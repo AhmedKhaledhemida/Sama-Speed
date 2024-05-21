@@ -1,0 +1,97 @@
+#contact {
+  margin-top: 55px;
+  background-image: linear-gradient(to bottom,  #1f396ca6, #1f396ca6);
+  background-position: center center;
+  background-size: cover;
+  padding: 3rem 2rem;
+}
+
+#contact .left .left-title {
+  position: relative;
+  color: #1f396c;
+}
+#contact .left .left-title:before {
+  content: "";
+  position: absolute;
+  background-color: #1f396c;
+  bottom: -8px;
+  left: 0;
+  width: 100px;
+  height: 3px;
+}
+
+#contact .container {
+  background-color: white;
+  box-shadow: var(--shadow);
+  padding: 3rem 2rem;
+}
+#contact .left .form {
+  text-align: center;
+}
+#contact .left .form textarea,
+#contact .left .form .input {
+  border: 2px solid #eff0f3;
+  padding: 10px 15px;
+}
+#contact .left .form .button button {
+  color: white;
+  background-color: #1f396c;
+  padding: 10px 24px;
+  border-radius: 5rem;
+  border: 5px solid transparent;
+  transition: all 0.5s;
+}
+#contact .left .form .button button:hover {
+  background-color: white;
+  color: #1f396c;
+  border-color: #1f396c;
+}
+
+#contact .right .right-title {
+  position: relative;
+  color: #1f396c;
+}
+#contact .right .right-title:before {
+  content: "";
+  position: absolute;
+  background-color: #1f396c;
+  bottom: -8px;
+  left: 0;
+  width: 100px;
+  height: 3px;
+}
+
+#contact .info ul i {
+  color: #1f396c;
+  padding: 0 5px;
+}
+#contact .icons ul {
+  display: flex;
+}
+#contact .icons ul li a {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 4px;
+  transition: all 1s;
+}
+#contact .icons ul li {
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  margin: 0 15px 0 0;
+  line-height: 1.6;
+  border-radius: 50%;
+  border: 3px solid #0078ff;
+  transition: all 1s;
+}
+
+#contact .icons ul li:hover a {
+  color: white;
+}
+#contact .icons ul li:hover {
+  background-color: #0078ff;
+  border-color: #cde1f8;
+}

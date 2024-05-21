@@ -1,0 +1,38 @@
+
+ .title {
+  margin-bottom: 4rem;
+}
+ .title h2 {
+  color: #1f396c;
+  font-weight: 700;
+  font-size: 3rem;
+}
+ .title .ptitle {
+  position: relative;
+}
+ .title .ptitle::before {
+  content: " ";
+  position: absolute;
+  width: 40px;
+  height: 5px;
+  left: 48%;
+  margin: 0 auto;
+  bottom: -26px;
+  background-color: #1f396c;
+}
+ .card {
+  height: 200px;
+}
+ .card .card-body {
+  color: #1f396c;
+}
+ .card .card-title {
+  font-size: 18px;
+}
+.card .card-body p{
+  font-size: 15px;
+}
+ .card img {
+  width: 30px;
+  margin-right: 5px;
+}

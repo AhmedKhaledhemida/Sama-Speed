@@ -1,0 +1,19 @@
+#mainNav {
+  background-color: #1f396c;
+}
+#mainNav .navbar-brand img {
+  width: 80px;
+}
+.nav-item a {
+  color: white;
+}
+
+.active {
+  color: #fa360a!important;
+}
+.navbar-nav{
+  margin-right: 30px;
+}
+.nav-item{
+  margin-right: 15px;
+}

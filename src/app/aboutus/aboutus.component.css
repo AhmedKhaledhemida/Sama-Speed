@@ -1,0 +1,180 @@
+/* About Us Style */
+/* start css */
+
+#about {
+  margin-top: 70px;
+  color: #1f396c;
+}
+#about .title {
+  font-size: 40px;
+  font-weight: 700;
+}
+#about .content {
+  font-size: 1.5rem !important;
+  color: #667085;
+  font-weight: 600;
+}
+#about .out {
+  margin-top: 20px;
+  border-radius: 15px;
+  border: 2px solid transparent;
+}
+#about .start {
+  padding-top: 20px;
+}
+#about .start .right {
+  background-image: url("../../assets/courier.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 350px;
+  position: relative;
+}
+#about .animation img {
+  position: absolute;
+  width: 150px;
+  bottom: -58px;
+  right: 0;
+  animation: moving 3.5s forwards;
+}
+@keyframes moving {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: 55%;
+  }
+}
+#about .animation .troll {
+  bottom: 40px;
+  left: 100px;
+  font-size: 50px;
+}
+#about .out .space {
+  margin-bottom: 15px;
+}
+#about .about-button {
+  width: 100%;
+  background-color: white;
+  text-align: left;
+  cursor: pointer;
+  color: #1f396c;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #1f396c;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#about .aboutTap {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f396c;
+  font-size: 18px;
+  display: none;
+  background-color: white;
+  padding: 18px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#about .aboutTap.active {
+  display: block;
+}
+
+
+/* ------------------------------ */
+/* accomplishment */
+.accomplishment {
+  /* text-align: center; */
+  background-image: linear-gradient(to bottom, #1f396ca6, #1f396ca6),
+    url(../../assets/counters.png);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 5rem;
+}
+
+.accomplishment .logo {
+  border-radius: 50%;
+  border: 10px solid #cde1f8;
+  background-color: transparent;
+  color: white;
+  width: 5rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accomplishment .counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  padding-block: 8rem;
+}
+.accomplishment .counter .caption{
+    padding: 1.25rem;
+}
+
+/* END of Accoplishment */
+
+/* Out css */
+.out {
+
+  border-radius: 15px;
+  background-color: #f4f5f6;
+}
+.space {
+  margin-bottom: 15px;
+}
+
+.about-button {
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  color: #1f396c;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #1f396c;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.aboutTap {
+
+  display: none;
+  background-color: #f9f9f9;
+  padding: 18px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.aboutTap p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #667085;
+  font-size: 18px;
+}
+
+.aboutTap.active {
+  display: block;
+}
+
+
+/* media Queries */
+@media (max-width: 768px) {
+  .accomplishment .container{
+    flex-direction: column;
+    padding-block: 15px;
+  }
+  .accomplishment .counter{
+   padding: 0;
+   margin: 0;
+  }
+}

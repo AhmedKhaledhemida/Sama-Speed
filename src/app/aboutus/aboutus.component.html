@@ -1,0 +1,163 @@
+<div id="about">
+<div class=" start ">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-7 left">
+        <div>
+          <h2 class="title">About Sama Speed</h2>
+          <p class="content">
+            Sama Speed is a leading Shipping company founded in Egypt with
+            the aim to expand and empower the Shipping Services in the
+            whole region.
+          </p>
+          <p class="content ">
+            Founded in 2023, our mission is to effortlessly handle the
+            delivery of different items, for all types of businesses no
+            matter how big or small the scale is.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-5 right position-relative">
+        <div class="animation">
+          <img src="../../assets/car2.png"alt="" className="position-absolute" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Accomplacment -->
+<div class="accomplishment ">
+  <div class=" container mt-5 d-flex justify-content-between align-content-center">
+
+
+      <div class="counter ">
+      <div class="logo">
+        <i class="fa-solid fa-truck-fast"></i>
+      </div>
+      <div class="caption">
+          <h3> Fast </h3>
+
+      </div>
+      </div>
+      <div class=" counter ">
+          <div class="logo">
+            <i class="fa-solid fa-shield"></i>
+              </div>
+              <div class="caption">
+                  <h3> Privacy</h3>
+
+              </div>
+      </div>
+      <div class="counter ">
+          <div class="logo">
+            <i class="fa-solid fa-box"></i>
+              </div>
+              <div class="caption">
+                  <h3>Packaging</h3>
+
+              </div>
+      </div>
+      <div class="counter ">
+          <div class="logo">
+      <i class="fa-solid fa-award"></i>
+              </div>
+              <div class="caption">
+                  <h3>Accuracy</h3>
+
+              </div>
+      </div>
+
+
+  </div>
+  </div>
+
+<!-- FAQ -->
+  <div class="container-fluid out">
+    <div class="space">
+      <button class="about-button " (click)="toggleDiv('div1')">
+        Why is Choosing Sama Speed?
+      </button>
+      <div
+        class="aboutTap"
+        [id]="'div1'"
+        [ngClass]="{ active: divActive['div1'] }"
+      >
+        <p class="lead">
+          Sama Speed company is a Courier & Shipping Services operating in Egypt where we are always on your side, making the world feel a little smaller, a bit closer. Because in our world, we're not just about speed, but also about accuracy, trust, and commitment. Our expansive network ensures that your parcels are delivered promptly, whether they're heading to the bustling city or the tranquil countryside
+        </p>
+      </div>
+    </div>
+    <div class="space">
+      <button class="about-button" (click)="toggleDiv('div2')">
+        Where does Sama Speed deliver its services?
+      </button>
+      <div
+        class="aboutTap"
+        [id]="'div2'"
+        [ngClass]="{ active: divActive['div2'] }"
+      >
+        <p class="lead" >We cover all Egypt among 27 Governorate.</p>
+      </div>
+    </div>
+    <div class="space">
+      <button class="about-button" (click)="toggleDiv('div3')">
+        How long would it take to deliver my orders?
+      </button>
+      <div
+        class="aboutTap"
+        [id]="'div3'"
+        [ngClass]="{ active: divActive['div3'] }"
+      >
+        <p class="lead" >
+          Deliveries to Cairo and Alexandria take 24 working hours from pick-up,
+          48 working hours to Delta and Canal cities, and to Upper Egypt.
+        </p>
+      </div>
+    </div>
+
+    <div class="space">
+      <button class="about-button" (click)="toggleDiv('div4')">
+        How do the orders get delivered?
+      </button>
+      <div
+        class="aboutTap"
+        [id]="'div4'"
+        [ngClass]="{ active: divActive['div4'] }"
+      >
+        <p class="lead">
+          We own a large fleet. And we use various vehicles depending on the
+          volume and size of the parcels (cars, motorcycles, or vans).
+        </p>
+      </div>
+    </div>
+    <div class="space">
+      <button class="about-button" (click)="toggleDiv('div5')">
+        Is there products you do not deliver?
+      </button>
+      <div
+        class="aboutTap"
+        [id]="'div5'"
+        [ngClass]="{ active: divActive['div5'] }"
+      >
+        <p class="lead">Yes. We do not deliver food, jewelry, money, or pets.</p>
+      </div>
+    </div>
+    <div class="space">
+      <button class="about-button" (click)="toggleDiv('div6')">
+        How can I get in touch with your customer support?
+      </button>
+      <div
+        class="aboutTap"
+        [id]="'div6'"
+        [ngClass]="{ active: divActive['div6'] }"
+      >
+        <p class="lead">
+          You can contact us directly on +201068375542, get in touch through our
+          Whatsapp, or send us an email at Samaspeed@gmail.com Our customer
+          support agents are available for your questions and requests from
+          Saturday to Thursday from 9 AM to 9 PM.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
